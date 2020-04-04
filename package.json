@@ -1,19 +1,19 @@
 {
   "name": "cerebro",
-  "version": "0.8.5",
-  "description": "cerebro - elasticsearch admin",
+  "version": "0.8.6",
+  "description": "Cerebro - elasticsearch admin",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/lmenezes/cerebro.git"
+    "url": "git://github.com/maxifom/cerebro.git"
   },
-  "author": "Leonardo Menezes",
+  "author": "Maxim Fominykh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lmenezes/cerebro/issues"
+    "url": "https://github.com/maxifom/cerebro/issues"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

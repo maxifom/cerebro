@@ -188,7 +188,7 @@ First cerebro release.
 #### Enhancements
 - add missing settings for s3 repositories
 - display alias filter/routing on aliases listing
-- support linux aarch64 (https://github.com/lmenezes/cerebro/issues/207)
+- support linux aarch64 (https://github.com/maxifom/cerebro/issues/207)
 
 ### v0.7.0 - October 13th, 2017
 
@@ -251,7 +251,7 @@ First cerebro release.
 ### v0.8.2 - April 2nd, 2019
 
 #### Enhancements
-- Move docker file to its [own repo](https://github.com/lmenezes/cerebro-docker) #306
+- Move docker file to its [own repo](https://github.com/maxifom/cerebro-docker) #306
 - Add LDAP group search #307
 
 ### v0.8.3 - April 5th, 2019

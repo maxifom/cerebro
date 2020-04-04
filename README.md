@@ -1,7 +1,6 @@
 Cerebro
 ------------
-[![Docker Pulls](https://img.shields.io/docker/pulls/lmenezes/cerebro.svg)](https://hub.docker.com/r/lmenezes/cerebro)
-[![Build Status](https://travis-ci.com/lmenezes/cerebro.svg?branch=master)](https://travis-ci.com/lmenezes/cerebro)
+[![Docker Pulls](https://img.shields.io/docker/pulls/maxifom/cerebro.svg)](https://hub.docker.com/r/maxifom/cerebro)
 
 cerebro is an open source(MIT License) elasticsearch web admin tool built using Scala, Play Framework, AngularJS and Bootstrap.
 
@@ -10,16 +9,16 @@ cerebro is an open source(MIT License) elasticsearch web admin tool built using 
 cerebro needs Java 1.8 or newer to run.
 
 ### Installation
-- Download from [https://github.com/lmenezes/cerebro/releases](https://github.com/lmenezes/cerebro/releases)
+- Download from [https://github.com/maxifom/cerebro/releases](https://github.com/maxifom/cerebro/releases)
 - Extract files
 - Run bin/cerebro(or bin/cerebro.bat if on Windows)
 - Access on http://localhost:9000
 
 ### Docker
 
-You can find the official docker images in the official [docker hub repo](https://hub.docker.com/r/lmenezes/cerebro/).
+You can find the official docker images in the official [docker hub repo](https://hub.docker.com/r/maxifom/cerebro/).
 
-Visit [cerebro-docker](https://github.com/lmenezes/cerebro-docker) for further information. 
+Visit [cerebro-docker](https://github.com/maxifom/cerebro-docker) for further information. 
 
 ### Configuration
 
@@ -79,7 +78,7 @@ LDAP_BIND_PWD=adminpass
 You can the pass this file as argument using:
 
 ```bash
- docker run -p 9000:9000 --env-file env-ldap  lmenezes/cerebro
+ docker run -p 9000:9000 --env-file env-ldap  maxifom/cerebro
 ```
 
 

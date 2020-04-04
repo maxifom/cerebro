@@ -7,15 +7,15 @@ packageSummary := "Elasticsearch web admin tool"
 packageDescription := """cerebro is an open source(MIT License) elasticsearch web admin tool built
   using Scala, Play Framework, AngularJS and Bootstrap."""
 
-version := "0.8.5"
+version := "0.8.6"
 
 scalaVersion := "2.12.8"
 
-rpmVendor := "lmenezes"
+rpmVendor := "maxifom"
 
 rpmLicense := Some("MIT")
 
-rpmUrl := Some("http://github.com/lmenezes/cerebro")
+rpmUrl := Some("http://github.com/maxifom/cerebro")
 
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play"                    % "2.7.0",

@@ -17,9 +17,9 @@ rpmLicense := Some("MIT")
 
 rpmUrl := Some("http://github.com/maxifom/cerebro")
 
+unmanagedBase := baseDirectory.value / "libs"
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play"                    % "2.7.0",
-  "com.typesafe.play" %% "play-json"               % "2.7.2",
   "com.typesafe.play" %% "play-slick"              % "4.0.0",
   "com.typesafe.play" %% "play-slick-evolutions"   % "4.0.0",
   "org.xerial"        %  "sqlite-jdbc"             % "3.23.1",
